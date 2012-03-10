@@ -1,0 +1,5 @@
+#!/bin/bash
+make
+cp server.exe nsis/WHMon.exe
+makensis nsis/whmon.nsi
+cp nsis/WHMonInstaller.exe /dev/shm
